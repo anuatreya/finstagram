@@ -1,7 +1,29 @@
-header {
+.fixed-top {
     background-color: #5098ac;
     color: #E8FDFF;
+    position: fixed;
+    overflow: hidden;
+  
+  top: 0;
+  width: 100%;
     
+}
+
+.fixed-top h1 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 14px;
+  text-decoration: none;
+  font-size: 32px;
+  font-family:'Kaushan Script', cursive
+}
+.fixed-top h1:hover {
+  background: #5098ac;
+  color: black;
+  cursor: pointer;
+			margin: 15px 2;
 }
 
   body {
@@ -11,6 +33,25 @@ header {
     background-color: white;
     padding: 20px;
   }
+
+  
+  .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background-color: #5098ac;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  .fixed-footer{
+    bottom: 0;
+  }    
+
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
   .finstagram-post {
     margin-bottom: 48px;
   }
@@ -18,7 +59,7 @@ header {
     border-radius: 50%;
   }
   body {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
   }
   a.photo:hover{
     padding: 10px;
@@ -27,3 +68,6 @@ header {
   a.photo{
     transition: padding 1s;
   }
+
+
+  
